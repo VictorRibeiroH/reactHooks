@@ -3,6 +3,7 @@ import UseState from './components/useState/UseState'
 import UseEffect from './components/useEffect/UseEffect'
 import UseRef from './components/useRef/UseRef'
 import UseReducer from './components/useReducer/UseReducer'
+import UseReducer2 from './components/useReducer/UseReducer2'
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
         {/* <UseState />  */}
         {/* <UseEffect /> */}
         {/* <UseRef /> */}
-        <UseReducer />
+        {/* <UseReducer /> */}
+        <UseReducer2 />
       </div>
     </div>
   )
