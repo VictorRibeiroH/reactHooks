@@ -1,6 +1,7 @@
 import './App.css'
 import UseState from './components/useState/UseState'
 import UseEffect from './components/useEffect/UseEffect'
+import UseRef from './components/useRef/UseRef'
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
       <div>
         {/* <UseState />  */}
-        <UseEffect />
+        {/* <UseEffect /> */}
+        <UseRef />
       </div>
     </div>
   )
